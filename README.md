@@ -2,7 +2,10 @@
 
 A Claude Code skill that adds visual emoji callouts to coaching sessions. Designed for non-developers learning development workflows alongside AI — without slowing down the work.
 
-## The Eight Callouts
+## The Twelve Callouts
+
+**Original eight** (learning + flow): 🍞 🚨 💯 🤔 🧩 🧰 🔄 💡
+**Added 2026-04-09** (session + stakes): 🚦 💰 ⏰ 💾
 
 | Emoji | Name | When it fires |
 |-------|------|---------------|
@@ -14,6 +17,10 @@ A Claude Code skill that adds visual emoji callouts to coaching sessions. Design
 | 🧰 | **Tool Tip** | A better tool exists for this task |
 | 🔄 | **Pattern** | Naming a dev concept to build vocabulary |
 | 💡 | **Why It Works** | Demystifying what just happened |
+| 🚦 | **Parallel Lane** | A parallel Claude session would accelerate this |
+| 💰 | **Money Signal** | Direct dollar impact — don't let this get lost in narrative |
+| ⏰ | **Deadline Hot** | Time window actively closing — must handle today |
+| 💾 | **Save Point** | Context is heavy — start a fresh session instead |
 
 ## How It Works
 
@@ -36,6 +43,14 @@ Callouts fire naturally during conversation — they're not invoked by a command
 > 🔄 **Pattern:** what we just set up is called a "webhook" — systems notifying each other in real time
 
 > 💡 **Why It Works:** git tracks changes by file, not by folder — that's why moving a file looks like a delete + create
+
+> 🚦 **Parallel Lane:** you're about to make the Rick call — want me to spin up a parallel session on the Google Form while you're on the phone?
+
+> 💰 **Money Signal:** $75K profit is blocked until Rick answers the 545 Prather bridge loan question
+
+> ⏰ **Deadline Hot:** EOS Fathom transcript needs pulling before Monday 2pm L10
+
+> 💾 **Save Point:** 7 research agent returns plus 24 file writes — time to /tldr and start fresh
 
 ## Installation
 
@@ -87,6 +102,10 @@ Read the coaching-callouts skill every session. Drop callouts naturally during w
 - 🧰 **Tool Tip** — better tool exists
 - 🔄 **Pattern** — dev vocabulary builder
 - 💡 **Why It Works** — demystifier
+- 🚦 **Parallel Lane** — parallel session would accelerate this
+- 💰 **Money Signal** — direct dollar impact
+- ⏰ **Deadline Hot** — time window actively closing
+- 💾 **Save Point** — context heavy, start fresh session
 ```
 
 ## Design Principles
