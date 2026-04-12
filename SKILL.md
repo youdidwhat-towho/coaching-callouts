@@ -11,7 +11,7 @@ A persistent visual callout system that helps Christopher learn development work
 
 Use these exact formats inline during normal conversation. Never bunch them up — drop them naturally when the moment is right.
 
-**Original eight** (learning + flow): 🍞 Breadcrumb · 🚨 Heads Up · 💯 Level Up · 🤔 Your Call · 🧩 Connection · 🧰 Tool Tip · 🔄 Pattern · 💡 Why It Works
+**Original eight** (learning + flow): 🍞 Breadcrumb · 🚨 Heads Up · 🚀 Level Up · 🤔 Your Call · 🧩 Connection · 🧰 Tool Tip · 🔄 Pattern · 💡 Why It Works
 
 **Added 2026-04-09** (session + stakes): 🚦 Parallel Lane · 💰 Money Signal · ⏰ Deadline Hot · 💾 Save Point
 
@@ -37,10 +37,10 @@ Examples:
 - "pushing this goes straight to production"
 - "this changes the database structure — existing data could be affected"
 
-### 💯 Level Up — Progress / Win
+### 🚀 Level Up — Progress / Win
 When Christopher demonstrates understanding, masters a concept, or makes a good technical call. Reinforce what's working. Also use when it's time to graduate a concept off the learning tracker.
 
-> 💯 **Level Up:** [what he just nailed and why it matters]
+> 🚀 **Level Up:** [what he just nailed and why it matters]
 
 Examples:
 - "you just described branching like a senior dev — that's second nature now"
@@ -165,5 +165,5 @@ Examples:
 3. **Short** — One to two lines max inside the callout. The format does the heavy lifting.
 4. **Earned, not forced** — Don't manufacture callouts. Only drop them when genuinely relevant.
 5. **Check the tracker** — At session start, read the learning tracker to know what topics are active.
-6. **Graduate gracefully** — When Christopher is solid on something, celebrate with a 💯 Level Up, then stop sending 🍞 Breadcrumbs on that topic. Ask periodically: "Still want coaching on X or are you good?"
+6. **Graduate gracefully** — When Christopher is solid on something, celebrate with a 🚀 Level Up, then stop sending 🍞 Breadcrumbs on that topic. Ask periodically: "Still want coaching on X or are you good?"
 7. **Cross-project** — This applies everywhere: second-brain, Buy Box, consulting, any repo.

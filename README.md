@@ -4,7 +4,7 @@ A Claude Code skill that adds visual emoji callouts to coaching sessions. Design
 
 ## The Thirteen Callouts
 
-**Original eight** (learning + flow): 🍞 🚨 💯 🤔 🧩 🧰 🔄 💡
+**Original eight** (learning + flow): 🍞 🚨 🚀 🤔 🧩 🧰 🔄 💡
 **Added 2026-04-09** (session + stakes): 🚦 💰 ⏰ 💾
 **Added 2026-04-12**: ❓
 
@@ -12,7 +12,7 @@ A Claude Code skill that adds visual emoji callouts to coaching sessions. Design
 |-------|------|---------------|
 | 🍞 | **Breadcrumb** | Reminders on stuff you're still learning |
 | 🚨 | **Heads Up** | About to do something risky or irreversible |
-| 💯 | **Level Up** | You nailed something — progress! |
+| 🚀 | **Level Up** | You nailed something — progress! |
 | 🤔 | **Your Call** | Open-ended judgment call — no discrete options |
 | ❓ | **Question** | Multiple-choice question with lettered options (a/b/c) |
 | 🧩 | **Connection** | This thing links to that other thing |
@@ -38,7 +38,7 @@ Callouts fire naturally during conversation — they're not invoked by a command
 
 > 🚨 **Heads Up:** this would delete that branch permanently
 
-> 💯 **Level Up:** you just described branching like a senior dev
+> 🚀 **Level Up:** you just described branching like a senior dev
 
 > 🤔 **Your Call:** we can keep this local or open a PR — what feels right?
 
@@ -104,7 +104,7 @@ Add this to your `~/.claude/CLAUDE.md` to make callouts fire every session:
 Read the coaching-callouts skill every session. Drop callouts naturally during work:
 - 🍞 **Breadcrumb** — learning reminders
 - 🚨 **Heads Up** — caution, irreversible actions
-- 💯 **Level Up** — progress, wins
+- 🚀 **Level Up** — progress, wins
 - 🤔 **Your Call** — open-ended judgment calls
 - ❓ **Question** — multiple-choice questions (reply with a letter)
 - 🧩 **Connection** — links between systems
