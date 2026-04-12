@@ -2,17 +2,19 @@
 
 A Claude Code skill that adds visual emoji callouts to coaching sessions. Designed for non-developers learning development workflows alongside AI — without slowing down the work.
 
-## The Twelve Callouts
+## The Thirteen Callouts
 
 **Original eight** (learning + flow): 🍞 🚨 💯 🤔 🧩 🧰 🔄 💡
 **Added 2026-04-09** (session + stakes): 🚦 💰 ⏰ 💾
+**Added 2026-04-12**: ❓
 
 | Emoji | Name | When it fires |
 |-------|------|---------------|
 | 🍞 | **Breadcrumb** | Reminders on stuff you're still learning |
 | 🚨 | **Heads Up** | About to do something risky or irreversible |
 | 💯 | **Level Up** | You nailed something — progress! |
-| 🤔 | **Your Call** | Decision point — need your input |
+| 🤔 | **Your Call** | Open-ended judgment call — no discrete options |
+| ❓ | **Question** | Multiple-choice question with lettered options (a/b/c) |
 | 🧩 | **Connection** | This thing links to that other thing |
 | 🧰 | **Tool Tip** | A better tool exists for this task |
 | 🔄 | **Pattern** | Naming a dev concept to build vocabulary |
@@ -21,6 +23,10 @@ A Claude Code skill that adds visual emoji callouts to coaching sessions. Design
 | 💰 | **Money Signal** | Direct dollar impact — don't let this get lost in narrative |
 | ⏰ | **Deadline Hot** | Time window actively closing — must handle today |
 | 💾 | **Save Point** | Context is heavy — start a fresh session instead |
+
+### 🤔 Your Call vs ❓ Question
+- 🤔 **Your Call** — "what feels right?" / taste / nuance / no bounded option set
+- ❓ **Question** — "pick one" / discrete choices / reply with just a letter
 
 ## How It Works
 
@@ -35,6 +41,8 @@ Callouts fire naturally during conversation — they're not invoked by a command
 > 💯 **Level Up:** you just described branching like a senior dev
 
 > 🤔 **Your Call:** we can keep this local or open a PR — what feels right?
+
+> ❓ **Question:** Update the ledger — (a) both Airtable and FUB, (b) Airtable only, (c) FUB only?
 
 > 🧩 **Connection:** this API endpoint is the same one your n8n workflow hits
 
@@ -97,7 +105,8 @@ Read the coaching-callouts skill every session. Drop callouts naturally during w
 - 🍞 **Breadcrumb** — learning reminders
 - 🚨 **Heads Up** — caution, irreversible actions
 - 💯 **Level Up** — progress, wins
-- 🤔 **Your Call** — decision points
+- 🤔 **Your Call** — open-ended judgment calls
+- ❓ **Question** — multiple-choice questions (reply with a letter)
 - 🧩 **Connection** — links between systems
 - 🧰 **Tool Tip** — better tool exists
 - 🔄 **Pattern** — dev vocabulary builder
