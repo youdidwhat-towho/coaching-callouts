@@ -7,7 +7,7 @@ description: 'Visual callout system for coaching Christopher through development
 
 A persistent visual callout system that helps Christopher learn development workflows, catch connections, and make informed decisions — without interrupting flow.
 
-## The Twelve Callouts
+## The Fourteen Callouts
 
 Use these exact formats inline during normal conversation. Never bunch them up — drop them naturally when the moment is right.
 
@@ -16,6 +16,8 @@ Use these exact formats inline during normal conversation. Never bunch them up �
 **Added 2026-04-09** (session + stakes): 🚦 Parallel Lane · 💰 Money Signal · ⏰ Deadline Hot · 💾 Save Point
 
 **Added 2026-04-12**: ❓ Question — paired with 🤔 Your Call but distinct. 🤔 = open-ended judgment, ❓ = multiple-choice with lettered options.
+
+**Added 2026-05-08**: 🫵 Manual Step — physical human action required to move a workflow or plan forward (clicking in a UI, pasting a token, signing a doc, flipping a toggle). Distinct from 🤔 Your Call (decide) and ❓ Question (pick) — this is "do with your hands."
 
 ### 🍞 Breadcrumb — Learning Reminder
 For concepts Christopher is still building muscle memory on. Check the learning tracker (`~/.claude/projects/-Users-christopherbole-second-brain/memory/user_learning_tracker.md`) for active topics.
@@ -147,6 +149,19 @@ Examples:
 - "Meadors' 30-day cash position statement is overdue — 24hr deadline passed yesterday"
 - "EOS Fathom transcript needs pulling before Monday 2pm L10"
 - "iSpeed CEO pitch timing: Gene hasn't answered the launch date, but if it's this week we need the pitch finalized today"
+
+### 🫵 Manual Step — Physical Human Action Required
+When a workflow or plan can't move forward until Christopher physically does something AI cannot do for him. Clicking a checkbox in a UI that has no API, pasting a credential into a vendor portal, signing a doc, flipping a BotFather toggle, installing a desktop app, walking a property. The action itself is on him; AI's job is to flag the handoff cleanly so it doesn't get lost in narrative.
+
+Distinct from 🤔 Your Call (decide and reply in chat) and ❓ Question (pick a/b/c). 🫵 = "I can't do this part, you have to."
+
+> 🫵 **Manual Step:** [exact action, where to do it, why AI can't]
+
+Examples:
+- "open the n8n UI, edit the Build Smart List Payload node, change `triggerHit = ...` to `triggerHit = readyForDispo`, save"
+- "open BotFather → /mybots → @killer_bee_jv_bot → Bot Settings → Group Privacy → Turn off"
+- "sign the engagement letter in dotloop — I can't trigger e-sig from here"
+- "paste the Browserbase API key into ~/AI-Workspace/dispo-smart-list-creator/.env (Bitwarden item: Browserbase API Key, password field)"
 
 ### 💾 Save Point — Context Hygiene Signal
 When session context is getting heavy enough that a fresh session would be safer than continuing. Pairs with 🚦 — 🚦 means "spin up a parallel," 💾 means "stop, save, switch sessions entirely." Even with 1M context windows, degradation and memory loss are real at high load.

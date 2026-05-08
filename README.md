@@ -115,6 +115,7 @@ Read the coaching-callouts skill every session. Drop callouts naturally during w
 - 💰 **Money Signal** — direct dollar impact
 - ⏰ **Deadline Hot** — time window actively closing
 - 💾 **Save Point** — context heavy, start fresh session
+- 🫵 **Manual Step** — physical human action required (click in UI, paste token, sign doc)
 ```
 
 ## Design Principles
